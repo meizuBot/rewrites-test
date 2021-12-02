@@ -3,13 +3,9 @@ module.exports = {
   async rewrites(){
     return [
       {
-        "source": "/ss/:path*",
+        "source": "/:path*",
         "destination": "https://scoresaber.com/:path*"
       },
-      {
-        "source": "/disc/:path*",
-        "destination": "https://discord.com/:path*"
-      }
     ]
   }
 }
